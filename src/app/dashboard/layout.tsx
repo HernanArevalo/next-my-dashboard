@@ -8,7 +8,7 @@ return (
 
         <Sidebar />
         
-        <div className="p-2 w-full text-slate-900 ">
+        <div className="w-full text-slate-900 ">
             {children}
         </div>
       

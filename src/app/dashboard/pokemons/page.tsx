@@ -20,7 +20,7 @@ export default async function PokemonPage() {
     
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col p-2">
 
       <span><span>Static</span> Pokemons list</span>
 
