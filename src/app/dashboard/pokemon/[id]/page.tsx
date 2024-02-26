@@ -25,11 +25,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             title: `Página del pokemon`,
             description: `Página del Pokemon `
         }
-        
     }
-
 }
 
+export async function generateStaticParams() {
+
+  const static151Pokemons = Array.from({ length: 151 }).map((v,i) => `${i + 1}`);
+
+  return static151Pokemons.map( id => ({id:id}))
+
+}
 
 const getPokemon = async(id:string): Promise<Pokemon> => {
 
