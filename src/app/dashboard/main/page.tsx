@@ -1,5 +1,11 @@
 import { SimpleWidget } from "@/components";
 
+
+export const metadata = {
+ title: 'Admin Dashboard',
+ description: 'Admin Dashboard',
+};
+
 export default function MainPage() {
   return (
     <div className="text-black p-2">
@@ -7,10 +13,6 @@ export default function MainPage() {
       <span className="text-xl">Information</span>
 
       <div className="flex flex-wrap p-2 justify-center ">
-        <SimpleWidget />
-        <SimpleWidget />
-        <SimpleWidget />
-        <SimpleWidget />
         <SimpleWidget />
       </div>
 
