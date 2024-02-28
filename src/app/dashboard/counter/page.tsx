@@ -5,8 +5,8 @@ export const metadata = {
  description: 'A simple counter',
 };
 
-
 export default function CounterPage() {
+
 
 
   return (
